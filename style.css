@@ -1,0 +1,25 @@
+**{
+  margin: 0;
+  padding: 0;
+}
+header{
+    text-align: center;
+    font: oblique 16pt arial;
+}
+main{
+    text-align: center;
+}
+.gerenciador{
+    display: inline;
+    border: 1px gray solid;
+    width: 171px;
+    height: 20px;
+}
+footer{
+    margin-top: 400px;
+    text-align: center;
+}
+footer p{
+    text-decoration:underline black;
+    color: blue
+}
