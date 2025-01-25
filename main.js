@@ -9,13 +9,8 @@ function Adicionar(){
         lista.appendChild(tarefa, excluir)
         tarefa.innerHTML = '-'+ tarefas.value + excluir.innerHTML
         tarefas.value=''
-        excluir.addEventListener('onmouseenter', function(){
-            excluir.style.
-        })
-        excluir.addEventListener('click', function(){
-          tarefa.innerHTML= ''
-
-        })
+        excluir.classList
+    
     }
     else{
         alert('adicione algo na lista ')
