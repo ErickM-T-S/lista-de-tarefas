@@ -2,18 +2,28 @@
   margin: 0;
   padding: 0;
 }
+body{
+    background-color: rgb(76, 76, 247);
+}
 header{
     text-align: center;
-    font: oblique 16pt arial;
+    font: 16pt  arial;
+    color: white;
+    
 }
 main{
     text-align: center;
 }
 .gerenciador{
     display: inline;
-    border: 1px gray solid;
     width: 171px;
     height: 20px;
+}
+.gerenciador input{
+    background-color: rgb(231, 228, 228);  
+}
+.lista{
+    color: white
 }
 footer{
     margin-top: 400px;
@@ -21,5 +31,5 @@ footer{
 }
 footer p{
     text-decoration:underline black;
-    color: blue
+    color: white;
 }
