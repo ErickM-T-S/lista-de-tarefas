@@ -1,12 +1,13 @@
 let tarefas = document.getElementById("inserir-tarefa")
-let lista = document.getElementsByClassName("lista")
-function Adicionar() {
-    let tarefa = tarefas.value
-    if(lista.length <= 0 ){
-        alert('adicione algo na lista ')
+let lista = document.querySelector("div.lista")
+function Adicionar(){
+    if(tarefas.value !='' ){
+        var tarefa = document.createElement("p")
+        lista.appendChild(tarefa)
+        tarefa.innerHTML = '-'+ tarefas.value
     }
     else{
-        lista.innerHTML = `${tarefa}`
+        alert('adicione algo na lista ')
     }
 
 }
