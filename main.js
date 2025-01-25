@@ -4,7 +4,7 @@ let marcado = false
 function Adicionar(){
     if(tarefas.value !='' ){
         let tarefa = document.createElement("p")
-        lista.appendChild(tarefa,)
+        lista.appendChild(tarefa)
         tarefa.innerHTML = '- '+ tarefas.value
         tarefas.value=''
        
