@@ -1,4 +1,5 @@
 let tarefas = document.getElementById("inserir-tarefa")
+let erro = document.getElementById('erro')
 let lista = document.querySelector("div.lista")
 let marcado = false
 function Adicionar(){
@@ -7,6 +8,7 @@ function Adicionar(){
         lista.appendChild(tarefa)
         tarefa.innerHTML = '- '+ tarefas.value
         tarefas.value=''
+        erro.innerHTML =''
        
         tarefa.addEventListener('click', function(){
             if(marcado ==false){
@@ -23,7 +25,7 @@ function Adicionar(){
     
     }
     else{
-        alert('adicione algo na lista ')
+        erro.innerHTML ='<strong> adicione algo na lista </strong>'
     }
     
 }
