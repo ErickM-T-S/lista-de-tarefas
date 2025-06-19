@@ -3,7 +3,7 @@ let erro = document.getElementById('erro')
 let lista = document.querySelector("div.lista")
 let marcado = false
 function Adicionar(){
-    if(tarefas.value !='' ){
+    if(tarefas.value !='' ){ 
         let tarefa = document.createElement("p")
         lista.appendChild(tarefa)
         tarefa.innerHTML = '- '+ tarefas.value
@@ -11,7 +11,7 @@ function Adicionar(){
         erro.innerHTML =''
        
         tarefa.addEventListener('click', function(){
-            if(marcado ==false){
+            if(marcado == false){
                 tarefa.style.textDecoration= 'line-through'
                 marcado = true
             }else{
