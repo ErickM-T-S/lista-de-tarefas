@@ -4,7 +4,9 @@
 }
 body{
     background-color: rgb(76, 76, 247);
-    font-size: arial;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif
+
 }
 header{
     text-align: center;
@@ -22,6 +24,7 @@ main{
 }
 .gerenciador input{
     background-color: rgb(231, 228, 228);  
+    border-radius: 5px;
 }
 
 #erro{
@@ -32,11 +35,34 @@ main{
 .lista{
     color: white
 }
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.remover{
+    background-color: rgb(190, 56, 20);
+}
+.editar{
+    background-color: rgb(153, 56, 20);
+}
+.remover, .editar{
+    width: 75px;
+    height: 25px;
+    font-size: 16px;
+    color: white;
+
+}
+
 footer{
     margin-top: 400px;
     text-align: center;
 }
 footer p{
-    text-decoration:underline black;
+    text-decoration: line-through;
+    /*text-decoration:underline black;*/
     color: white;
 }
